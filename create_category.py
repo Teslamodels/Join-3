@@ -3,7 +3,7 @@ from psycopg2 import Error
 
 try:
 
-    connection = psycopg2.connect(user = 'postgres', password = 'postgres', host = 'localhost', port = 5432, database = 'Join_3')
+    connection = psycopg2.connect(user = 'YOU NEED TO WRITE IT BY YOURSELF', password = 'YOU NEED TO WRITE IT BY YOURSELF', host = 'YOU NEED TO WRITE IT BY YOURSELF', port = 5432, database = 'YOU NEED TO WRITE IT BY YOURSELF')
 
     cursor = connection.cursor()
 
